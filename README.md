@@ -8,7 +8,7 @@ My personal website using React (react router, react rotuer transtion). In consi
 * private (some photos of the people most important to me)
 
 ## Demo
-To view a demo [click here](https://rafal-ploszka-website.herokuapp.com/)
+To view a demo [click here](https://rafal-ploszka-website.herokuapp.com/).
 
 ## Getting started
 Clone down this repo. You will need node and npm installed globally on your machine.
