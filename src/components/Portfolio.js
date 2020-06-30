@@ -34,7 +34,7 @@ const Portfolio = () => {
                 name='Cloud Nine'
                 about="Weather App using OpenWeather API and React Context to change the theme. I'm the author of all graphics."
                 stack="React (hooks, Contex tAPI)"
-                demo="https://rafal-ploszka-website.herokuapp.com"
+                demo="https://rafal-ploszka-cloud-nine.herokuapp.com"
                 repo="https://github.com/RafalPloszka/Weather-App">
             </Project>            
             <Project 
