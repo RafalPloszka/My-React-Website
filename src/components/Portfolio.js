@@ -34,7 +34,7 @@ const Portfolio = () => {
                 name='Cloud Nine'
                 about="Weather App using OpenWeather API and React Context to change the theme. I'm the author of all graphics."
                 stack="React (hooks, Contex tAPI)"
-                demo=""
+                demo="https://rafal-ploszka-website.herokuapp.com"
                 repo="https://github.com/RafalPloszka/Weather-App">
             </Project>            
             <Project 
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 name='TODO' 
                 about="Simple TODO App, where you can add, edit, mark as done and delete tasks."
                 stack="React (hooks, Context API)"
-                demo=""
+                demo="https://rafal-ploszka-todo.herokuapp.com"
                 repo="https://github.com/RafalPloszka/TODO_App">
             </Project>
             <Project
