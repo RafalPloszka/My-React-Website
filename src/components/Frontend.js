@@ -1,4 +1,6 @@
 import React from 'react'
+import diploma1 from '../media/coderscamp_diploma.png';
+import diploma2 from '../media/pwa_diploma.jpg';
 
 const Frontend = () => {
     return (
@@ -26,7 +28,7 @@ const Frontend = () => {
                     Currently I focus mainly on <b>mastering React</b> and learning <b>Node.js</b>.
                     <br/>
                     In August I plan to take part in hackathon:
-                    <br/><a href="https://challengerocket.com/wizjarozwoju20">https://challengerocket.com/wizjarozwoju20</a>
+                    <br/><i><a href="https://challengerocket.com/wizjarozwoju20">https://challengerocket.com/wizjarozwoju20</a></i>
                 </p>
 
                 <h3 className="underline"><i className="fas fa-user-graduate"></i> Courses</h3>
@@ -37,18 +39,26 @@ const Frontend = () => {
                          web programming course organized by the CodersCrew Association. I got an access 
                          to resources about HTML, CSS, JS, React, GIT, npm, Node. Besides I participated
                          in <b>4 group projects</b>.  
-                        <div className="zoom-pic"><div className="zoom-pic-inside diploma"></div></div>
+                        
                     </li>
+                </ul>
+                    <div className="zoom-pic">
+                        <div className="zoom-pic-inside diploma" style={{backgroundImage: `url(${diploma1})`}}></div>
+                        </div>
+                    <br/>
+                <ul>
                     <li>
                         06.2020- online course Progressive Web App
                         <br/> Quite advanced online course on a topic that has recently interested me.
                         The agenda included basic PWA aspects (icon preparation for mobile, manifest file,
-                        basic offline mode, add-to-home-screen support), tools sucha as Google Analitics
+                        basic offline mode, add-to-home-screen support), tools sucha as Google Analytics
                         or Lighthouse and more complex topics (caching strategies, push notifications,
                         trusted web activities).
                     </li>
                 </ul>
-
+                    <div className="zoom-pic">
+                        <div className="zoom-pic-inside diploma" style={{backgroundImage: `url(${diploma2})`}}></div>
+                    </div>
                 <h3 className="underline"><i className="far fa-address-card"></i> Experience</h3>
                 <ul> 
                     <li>

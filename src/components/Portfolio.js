@@ -15,11 +15,11 @@ const Project = (props) => {
                 <h1 className="underline">{props.name}</h1>
                 <span>{props.about}</span>
                 <br/><br/>
-                <span><i>Stack:</i> {props.stack}</span>
+                <span><i>Stack:</i></span> {props.stack}
                 <br/><br/>
-                <span><i>Demo:</i> <a href={props.demo} target="_blank" rel="noopener noreferrer">{props.demo}</a></span>
+                <span><i>Demo:</i></span> <a href={props.demo} target="_blank" rel="noopener noreferrer">{props.demo}</a>
                 <br/><br/>
-                <span><i>Repo:</i> <a href={props.repo} target="_blank" rel="noopener noreferrer">{props.repo}</a></span>
+                <span><i>Repo:</i></span> <a href={props.repo} target="_blank" rel="noopener noreferrer">{props.repo}</a>
                 
             </div>
         </div>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                 image={cloudnine}
                 name='Cloud Nine'
                 about="Weather App using OpenWeather API and React Context to change the theme. I'm the author of all graphics."
-                stack="React (hooks, Contex tAPI)"
+                stack="React (hooks, Context API)"
                 demo="https://rafal-ploszka-cloud-nine.herokuapp.com"
                 repo="https://github.com/RafalPloszka/Weather-App">
             </Project>            
