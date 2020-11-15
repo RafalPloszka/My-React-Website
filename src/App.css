@@ -86,6 +86,10 @@ a:hover::after {
   width: 100%;
 }
 
+.img-link::after {
+  border: 0;
+}
+
 .content {
   padding-top: 8em;
   position: relative;
@@ -165,6 +169,9 @@ a:hover::after {
     padding: 1em;
     font-size: 12px;
   }
+  .description ul {
+    padding-inline-start: 20px;
+  }
 }
 
 .caption-v {
@@ -214,6 +221,30 @@ a:hover::after {
   }
   .tutor:hover {
     hover: none;
+  }
+}
+
+.softwaresupplogo {
+  width: 40%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .softwaresupplogo {
+    margin: 10px 0;
+  }
+}
+
+.stack-icon {
+  font-size: 50px;
+  margin-right: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+  .stack-icon {
+    margin-right: 12px;
+    font-size: 20px;
   }
 }
 

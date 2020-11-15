@@ -17,7 +17,6 @@ const Math = () => {
                                     <li>Financial engineering</li>
                                     <li>Capital and financial markets</li>
                                     <li>Credit Suisse Quantative Modelling Academy</li>
-                                    <li>Simulations and algorithmic applications of Markov chains</li>
                                 </ul>
                         </li>
                         <li>
@@ -35,15 +34,16 @@ const Math = () => {
                             The thesis concerns machine learning algorithm for detecting 
                             communnities in complex networks and its application
                             to recommendation systems. <br/> 
-                            <a href={Pdf} target="_blank" rel="noopener noreferrer">LINK</a> (Polish version only)
+                            <a href={Pdf} target="_blank">LINK</a> (Polish version only)
                         </li>
                     </ul>
                     <br/>
-                <h3 className="underline"><i className="fas fa-chalkboard-teacher"></i> Other</h3>
+                <h3 className="underline"><i className="fas fa-chalkboard-teacher"></i> Tutoring</h3>
                     <ul>
                         <li>
                             <h4>2020-... Math tutoring</h4>
-                            I also teach maths in both classical and online form.
+                            I also teach maths in both classical and online form. I have experience in preparing my students
+                            for the matriculation exam at the basic and advanced level.
                             <br/> For the online classes I use collaborative web whiteboard.
                             <br/> Below you can see my banner ad:
                             <br/>

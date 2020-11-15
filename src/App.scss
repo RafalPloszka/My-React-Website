@@ -88,6 +88,10 @@ a:hover::after {
 left: 0;
 width: 100%;
 }
+
+.img-link::after {
+  border: 0;
+}
 //*************
 
 
@@ -178,6 +182,9 @@ width: 100%;
     margin: 5em 0 0 0;
     padding: 1em;
     font-size: 12px;
+    ul {
+      padding-inline-start: 20px;
+    }
   }
 }
 
@@ -228,6 +235,25 @@ width: 100%;
   }
   .tutor:hover{
     hover: none;
+  }
+}
+
+.softwaresupplogo {
+  width: 40%;
+  // min-width: 300px;
+  border-radius: 5px;
+  margin: 20px 0;
+  @media only screen and (max-width: 500px) {
+    margin: 10px 0;
+  }
+}
+
+.stack-icon {
+  font-size: 50px;
+  margin-right: 16px;
+  @media only screen and (max-width: 500px) {
+    margin-right: 12px;
+    font-size: 20px;
   }
 }
 

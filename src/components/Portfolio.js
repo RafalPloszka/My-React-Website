@@ -3,13 +3,13 @@ import cloudnine from '../media/cloud_nine.png';
 import todo from '../media/todo_screen.png';
 import kamea from '../media/kamea.png';
 import my from '../media/my.png';
+import softwaresupp from '../media/softwaresupp.jpg';
 
 
 const Project = (props) => {
     return (
         <div className="project-box">
-            <div className="project-photo" style={{backgroundImage: `url(${props.image})`}} 
-            /*style={{backgroundImage: `url(./${images.boryz.jpg})`}}*/></div>
+            <div className="project-photo" style={{backgroundImage: `url(${props.image})`}}></div>
             <div className="project-text">
 
                 <h1 className="underline">{props.name}</h1>
@@ -17,9 +17,9 @@ const Project = (props) => {
                 <br/><br/>
                 <span><i>Stack:</i></span> {props.stack}
                 <br/><br/>
-                <span><i>Demo:</i></span> <a href={props.demo} target="_blank" rel="noopener noreferrer">{props.demo}</a>
+                <span><i>Demo:</i></span> <a href={props.demo} target="_blank">{props.demo}</a>
                 <br/><br/>
-                <span><i>Repo:</i></span> <a href={props.repo} target="_blank" rel="noopener noreferrer">{props.repo}</a>
+                <span><i>Repo:</i></span> <a href={props.repo} target="_blank">{props.repo}</a>
                 
             </div>
         </div>
@@ -29,6 +29,14 @@ const Project = (props) => {
 const Portfolio = () => {
     return (
         <div className="portfolio-content">
+            <Project
+                image={softwaresupp}
+                name='SoftwareSupp marketplace'
+                about="The project I create with 2 workmates. I am responsible mainly for developing new features, not only in terms of coding, but also UX and marketing."
+                stack="React, Redux, Node.js"
+                demo="https://softwaresupp.com"
+                repo="- (private)">
+            </Project> 
             <Project
                 image={cloudnine}
                 name='Cloud Nine'
@@ -49,7 +57,7 @@ const Portfolio = () => {
                 image={my}
                 name='My personal website'
                 about="The website you're on :) "
-                stack="HTML+CSS(Sass), React (React Router, React Router Transtion)"
+                stack="HTML + CSS (Sass), React (React Router, React Router Transtion)"
                 demo=""
                 repo="https://github.com/RafalPloszka">
             </Project>            

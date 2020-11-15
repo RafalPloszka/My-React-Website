@@ -6,9 +6,9 @@ const Home = () => {
             <div className="welcome">
                 Welcome to my website!
                 <br/><br/>
-                I'm a math student
+                I'm a junior frontend developer
                 <br/>
-                and frontend passionate.
+                and math student.
                 <br/><br/>
                 Rafal Ploszka
                 <br/><br/>
